@@ -1,4 +1,4 @@
-export const ImageThreede = "/images/3d.webp";
+export const promo = "/images/promo.png";
 export const hot = "/images/hot.png";
 export const kitchens = "/images/kitchen.png";
 export const ImageBookshelf = "/images/bookshelf.webp";

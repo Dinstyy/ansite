@@ -25,7 +25,7 @@ import canva from "@icons/canva.svg";
 
 // Project Images
 import jadwal from "@images/jadwal.png";
-import treede from "@images/3d.webp";
+import promo from "@images/promo.png";
 import hot from "@images/hot.png";
 import inpoums from "@images/inpoums.webp";
 import learns from "@images/learn.png";
@@ -39,13 +39,13 @@ import postgresql from "@icons/postgresql.svg";
 
 // Gif Images
 import sos from "@gif/sos.gif";
-import coffebeanGif from "@gif/coffe-bean.gif";
 import learn from "@gif/learn.gif";
 import abinawaGif from "@gif/abinawa.gif";
 import foods from "@gif/food.gif";
 import luxorGif from "@gif/luxor.gif";
 import stargiusGif from "@gif/stargius.gif";
 import bricks from "@gif/brick.gif";
+import promos from "@gif/promos.gif";
 
 const tools = {
   Git: { name: "Git", src: gitIcon, level: "Version control" },
@@ -81,37 +81,36 @@ const projects = [
     {
     id: 4,
     name: "Video Promosi",
-    desc: "Learning process using spline with react for Interactive 3D Object Web projects",
-    image: treede,
-    web: "https://ulinnaja-3-d-apps-intective.vercel.app",
-    repo: "https://github.com/ulinnajaaldi/React-3D-Object-Intective",
-    stack: "#Youtube",
-    gif: "",
+    desc: "Bertindak sebagai kameraman, penulis narasi, perancang konsep, sekaligus editor video untuk proyek drama singkat mempromosikan jasa yang ditawarkan.",
+    image: promo,
+    web: "https://youtu.be/C-ED0Vc1eMw",
+    stack: "#Creative",
+    gif: promos,
   },
   {
     id: 5,
     name: "Newsite",
-    desc: "This website is designed as a digital learning tool to introduce the art of wayang kulit to the public. The website features interactive 3D models of wayang kulit.",
+    desc: "Aplikasi berita simpel dan up-to-date ⚡, menampilkan info terkini dari berbagai kategori. Bikin kamu tetap update tanpa ribet! 🔔🌍",
     image: hot,
     web: "https://www.figma.com/design/PT1jw39eNVm5rp9ZZzmyqy/anwork?node-id=73-2&t=V2RYUSyRXdvLBAgG-1",
     repo: "https://github.com/Dinstyy/Newsite.git",
     stack: "#PHP, #Laravel, #Bootstrap",
-    gif: abinawaGif,
+    gif: "",
   },
   {
     id: 6,
     name: "Sisfo Sarpras",
-    desc: "The purpose of this platform is to provide students with a medium to share information about the latest events or news happening in the UMS community.",
+    desc: "Sistem informasi berbasis web & mobile memudahkan pencatatan, pengelolaan, dan pemantauan sarana & prasarana sekolah secara digital 💼📊",
     image: inpoums,
-    web: "",
-    repo: "https://github.com/ulinnajaaldi/laravel-react-inpo-ums",
+    web: "https://github.com/Dinstyy/Api-and-Frontend-Sarpras.git",
+    repo: "https://github.com/Dinstyy/Sarpras-App.git",
     stack: "#Laravel, #Flutter",
     gif: "",
   },
   {
     id: 7,
     name: "Jadwal Mapel",
-    desc: "Welcome to Notes app! With this app, you can create, edit, delete and organize your notes. You can also sign up and log in to access your notes. This app I made for complete the Dicoding React Fundamental course ⭐5.",
+    desc: "Website sederhana yang memudahkan siswa melihat jadwal pelajaran harian mereka dengan tampilan yang rapi dan mudah dipahami. ⏰🖥️",
     image: jadwal,
     web: "https://notes-app-api-db-dicoding.vercel.app",
     repo: "https://github.com/ulinnajaaldi/Notes",
@@ -120,7 +119,7 @@ const projects = [
   {
     id: 8,
     name: "Learn Tag",
-    desc: "My first personal portfolio!! I designed it by combining different ideas from various sources. It also has a secret game that you can play on your desktop. Can you find it? 🛸",
+    desc: "Website edukasi yang membantu pemula memahami konsep dasar CSS seperti margin, padding, flexbox, dan hover. 🎓✨",
     image: learns,
     repo: "https://github.com/ulinnajaaldi/portofolio",
     stack: "#HTML, #CSS, #JavaScript",
@@ -129,7 +128,7 @@ const projects = [
   {
     id: 9,
     name: "Kitchen Chaos",
-    desc: "Trying to slice from Figma correctly to create a responsive website, and actually, it is already very good for being responsive (can be checked through inspect), but sometimes on certain screens, the margin is not read properly.",
+    desc: "Play as an adorable duck chef in a hectic kitchen! Cook dishes, serve customers, and survive the chaos in this fun Unity 2D game 🐣🔥🥗",
     image: kitchens,
     repo: "https://bertumbuh.vercel.app/",
     stack: "#Unity",
