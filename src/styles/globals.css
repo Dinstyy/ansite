@@ -19,11 +19,6 @@ body {
   @apply rounded-full border-[3px] border-solid border-base_col bg-primary;
 }
 
-:root {
-  --font-poppins: 'Poppins', sans-serif;
-  --font-roboto-mono: 'Roboto Mono', monospace;
-}
-
 @layer components {
   .text-underline {
     position: relative;

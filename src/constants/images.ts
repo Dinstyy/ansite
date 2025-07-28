@@ -5,6 +5,7 @@ export const ImageBookshelf = "/images/bookshelf.webp";
 export const Luxor = "/images/luxor.png";
 export const Brick = "/images/brick.png";
 export const SOS = "/images/SOS.png";
+export const porto = "/images/porto.png";
 export const Food = "/images/Food.png";
 export const ImageInpoUms = "/images/inpo-ums.webp";
 export const ImageMulih = "/images/mulih.webp";

@@ -36,11 +36,12 @@ import food from "@images/Food.png";
 import luxor from "@images/luxor.png";
 import stargius from "@images/stargius.png";
 import postgresql from "@icons/postgresql.svg";
+import porto from "@images/porto.png";
 
 // Gif Images
 import sos from "@gif/sos.gif";
 import learn from "@gif/learn.gif";
-import abinawaGif from "@gif/abinawa.gif";
+import portof from "@gif/porto.gif";
 import foods from "@gif/food.gif";
 import luxorGif from "@gif/luxor.gif";
 import stargiusGif from "@gif/stargius.gif";
@@ -86,6 +87,15 @@ const projects = [
     web: "https://youtu.be/C-ED0Vc1eMw",
     stack: "#Creative",
     gif: promos,
+  },
+  {
+    id: 3,
+    name: "Design Portofolio",
+    desc: "Website pribadi 🧑‍💻 yang menampilkan profil diri, keahlian 💡, dan berbagai proyek seru 🎨 yang pernah saya buat. Dibuat untuk memperkenalkan diri secara profesional 👩‍💼 kepada publik maupun rekruter 🌟",
+    image: porto,
+    web: "https://www.figma.com/design/PT1jw39eNVm5rp9ZZzmyqy/anwork?node-id=0-1&t=MVNAsZ80yTv0Vgtp-1",
+    stack: "#Figma",
+    gif: portof,
   },
   {
     id: 5,
