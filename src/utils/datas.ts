@@ -3,7 +3,6 @@ import htmlIcon from "@icons/html.svg";
 import cssIcon from "@icons/css.svg";
 import jsIcon from "@icons/js.svg";
 import phpIcon from "@icons/php.svg";
-import sassIcon from "@icons/sass.svg";
 import bootstrapIcon from "@icons/bootstrap.svg";
 import tailwindIcon from "@icons/tailwind.svg";
 import reactIcon from "@icons/react.svg";
@@ -22,6 +21,7 @@ import python from "@icons/python.svg";
 import flutter from "@icons/flutter.svg";
 import unity from "@icons/unity.svg";
 import canva from "@icons/canva.svg";
+import goIcon from "@icons/Golang.svg";
 
 // Project Images
 import jadwal from "@images/jadwal.png";
@@ -63,10 +63,10 @@ const tools = {
 const stacks = {
   HTML: { name: "HTML", src: htmlIcon, level: "Advanced" },
   CSS: { name: "CSS", src: cssIcon, level: "Advanced" },
-  SASS: { name: "SASS", src: sassIcon, level: "Intermediate" },
   PHP: { name: "PHP", src: phpIcon, level: "Intermediate" },
   JS: { name: "Javascript", src: jsIcon, level: "Intermediate" },
   React: { name: "ReactJS", src: reactIcon, level: "Intermediate" },
+  Go: { name: "Golang", src: goIcon, level: "Beginner" },
   NextJS: { name: "NextJS", src: nextjsIcon, level: "Beginner" },
   Laravel: { name: "Laravel", src: laravelIcon, level: "Advanced" },
   Flutter: { name: "Flutter", src: flutter, level: "Beginner" },
@@ -91,7 +91,7 @@ const projects = [
   {
     id: 3,
     name: "Design Portofolio",
-    desc: "Website pribadi 🧑‍💻 yang menampilkan profil diri, keahlian 💡, dan berbagai proyek seru 🎨 yang pernah saya buat. Dibuat untuk memperkenalkan diri secara profesional 👩‍💼 kepada publik maupun rekruter 🌟",
+    desc: "Website pribadi yang menampilkan profil diri. Dibuat untuk memperkenalkan diri secara profesional 👩‍💼 kepada publik maupun rekruter 🌟",
     image: porto,
     web: "https://www.figma.com/design/PT1jw39eNVm5rp9ZZzmyqy/anwork?node-id=0-1&t=MVNAsZ80yTv0Vgtp-1",
     stack: "#Figma",
