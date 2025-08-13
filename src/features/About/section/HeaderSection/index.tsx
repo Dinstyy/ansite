@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import Image from "next/image";
-import ulin from "@images/me.jpg";
+import Me from "@images/me.jpg";
 
 const HeaderSection: FC = () => {
   return (
@@ -52,7 +52,7 @@ const HeaderSection: FC = () => {
       >
         <div className="grayscale transition-all duration-500 hover:grayscale-0">
           <Image
-            src={ulin}
+            src={Me}
             alt="dinstyy"
             height={1000}
             className="scale-50 lg:scale-100 2xl:scale-75"

@@ -27,7 +27,7 @@ import goIcon from "@icons/Golang.svg";
 import jadwal from "@images/jadwal.png";
 import promo from "@images/promo.png";
 import hot from "@images/hot.png";
-import inpoums from "@images/inpoums.webp";
+import sarpras from "@images/sarpras.png";
 import learns from "@images/learn.png";
 import kitchens from "@images/kitchen.png";
 import brick from "@images/brick.png";
@@ -111,7 +111,7 @@ const projects = [
     id: 6,
     name: "Sisfo Sarpras",
     desc: "Sistem informasi berbasis web & mobile memudahkan pencatatan, pengelolaan, dan pemantauan sarana & prasarana sekolah secara digital 💼📊",
-    image: inpoums,
+    image: sarpras,
     web: "https://github.com/Dinstyy/Api-and-Frontend-Sarpras.git",
     repo: "https://github.com/Dinstyy/Sarpras-App.git",
     stack: "#Laravel, #Flutter",
@@ -122,8 +122,7 @@ const projects = [
     name: "Jadwal Mapel",
     desc: "Website sederhana yang memudahkan siswa melihat jadwal pelajaran harian mereka dengan tampilan yang rapi dan mudah dipahami. ⏰🖥️",
     image: jadwal,
-    web: "https://notes-app-api-db-dicoding.vercel.app",
-    repo: "https://github.com/ulinnajaaldi/Notes",
+    repo: "https://github.com/Dinstyy/Jadwal-Mapel.git",
     stack: "#HTML, #CSS, #JavaScript",
   },
   {
@@ -131,7 +130,7 @@ const projects = [
     name: "Learn Tag",
     desc: "Website edukasi yang membantu pemula memahami konsep dasar CSS seperti margin, padding, flexbox, dan hover. 🎓✨",
     image: learns,
-    repo: "https://github.com/ulinnajaaldi/portofolio",
+    repo: "https://github.com/Dinstyy/Learn-Tag.git",
     stack: "#HTML, #CSS, #JavaScript",
     gif: learn,
   },
